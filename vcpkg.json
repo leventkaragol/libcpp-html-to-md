@@ -12,8 +12,8 @@
       "version>=": "1.15.2"
     },
     {
-      "name": "libiconv",
-      "version>=": "1.17#4"
+      "name": "cppp-reiconv",
+      "version>=": "2.1.0"
     }
   ]
 }
