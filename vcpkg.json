@@ -10,10 +10,6 @@
     {
       "name": "gtest",
       "version>=": "1.15.2"
-    },
-    {
-      "name": "cppp-reiconv",
-      "version>=": "2.1.0"
     }
   ]
 }

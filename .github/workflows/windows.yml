@@ -50,7 +50,7 @@ jobs:
       - name: Configure CMake project
         run: |
           echo "Using CMAKE_TOOLCHAIN_FILE: ${env:CMAKE_TOOLCHAIN_FILE}"
-          cmake -B build -S . -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="${env:CMAKE_TOOLCHAIN_FILE}"
+          cmake -B build -S . -DCMAKE_BUILD_TYPE=Release -DCMAKE_TOOLCHAIN_FILE="${env:CMAKE_TOOLCHAIN_FILE}" -DLIBXML2_WITH_ICONV=OFF
 
       - name: Build the project
         run: |
