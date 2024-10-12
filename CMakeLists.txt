@@ -9,3 +9,5 @@ add_library(libcpp-html-to-md INTERFACE)
 
 target_include_directories(libcpp-html-to-md INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
+add_subdirectory(examples)
+add_subdirectory(test)
