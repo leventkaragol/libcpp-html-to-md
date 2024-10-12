@@ -30,7 +30,7 @@ void simpleHTMLtoMDCoversion()
             </table>
         </body>
     </html>
-)";
+    )";
 
     MarkdownConverter mdConverter(htmlContent);
 
