@@ -39,7 +39,7 @@ jobs:
         run: |
           $env:VCPKG_ROOT = "C:\vcpkg"
           cd $env:GITHUB_WORKSPACE
-          & "$env:VCPKG_ROOT\vcpkg" install
+          & "$env:VCPKG_ROOT\vcpkg" install libxml2:x64-windows iconv:x64-windows
 
       - name: Prepare build environment
         run: |
