@@ -1,2 +1,3 @@
 # libcpp-html-to-md
-High performance, Easy to use, HTML to Markdown conversion library for C++ (17+)
+
+High performance, easy to use, HTML to Markdown conversion library for C++ (17+)
