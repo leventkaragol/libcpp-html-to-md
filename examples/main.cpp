@@ -2,7 +2,7 @@
 
 using namespace lklibs;
 
-void simpleHTMLtoMDCoversion()
+void simpleHTMLtoMDConversion()
 {
     const auto htmlContent = R"(
     <html>
@@ -41,5 +41,5 @@ void simpleHTMLtoMDCoversion()
 
 int main()
 {
-    simpleHTMLtoMDCoversion();
+    simpleHTMLtoMDConversion();
 }
