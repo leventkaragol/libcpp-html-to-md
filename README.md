@@ -45,6 +45,11 @@ target_link_libraries(myProject PRIVATE ${LIBXML2_LIBRARIES})
 
 ```
 
+> [!IMPORTANT]
+> In order to run the library on Windows, the Iconv library is also needed. The CMakeLists.txt file under the examples
+> folder contains the necessary additions to work on both platforms.
+
+
 ## How to use? (Simplest Form)
 
 You can call the **"convert"** method of the **"MarkdownConverter"** class to convert the HTML content you have  
